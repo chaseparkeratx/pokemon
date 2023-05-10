@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Pokemon';
+  src: ('./fonts/Pokemon Solid.tff') format('Pokemon');
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: 'Pokemon', sans-serif;
+}
