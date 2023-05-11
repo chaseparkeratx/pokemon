@@ -35,7 +35,9 @@ footer {
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+  color: red;
 }
 span {
   font-size: 200%;
+  color: yellow;
 }
