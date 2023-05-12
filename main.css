@@ -1,9 +1,45 @@
 @font-face {
   font-family: 'Pokemon';
-  src: ('./fonts/Pokemon Solid.tff') format('Pokemon');
+  src: url('./fonts/pokemon.ttf') format('Pokemon');
   font-weight: normal;
   font-style: normal;
+  src: url('fonts/pokemon.ttf') format('truetype');
+  /* You may need to adjust the font file name and format based on your file's actual name and format */
+}
+html {
+  font-family: 'Pokemon', sans-serif;
+  background-color: rgba(0, 140, 255, 0.59);
+}
+header {
+  display: flex;
+}
+/* img {
+  height: 10%;
+  width: 10%;
+} */
+.title {
+  letter-spacing: 4px;
 }
 h1 {
+  font-size: 500%;
+  border: 5px double yellow;
+  border: 5px double red;
+  background-color: rgba(0, 0, 255, 0.519);
+  color: yellow;
+}
+.stadium {
+  width: 100%;
+  height: 600px;
+  border: 5px solid black;
+  border: 1px solid black;
+  border-radius: 99%;
+  background-image: url(https://i.redd.it/v4vq7z2kl3031.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
   font-family: 'Pokemon', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
