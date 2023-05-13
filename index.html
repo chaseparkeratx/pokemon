@@ -4,24 +4,34 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="./main.js"></script>
+  <script src="./main.js" defer></script>
+  <link rel="stylesheet" href="./main.css">
+
   <title>Pokemon</title>
 </head>
 <header>
   <h1>Pokemon Coliseum</h1>
+  <div id="pokemon-info"></div>
 </header>
 
 <body>
-  
+  <div>
+    <select id="pokemon-select1">
+      <option value="">Select Pokémon</option>
+    </select>
+    <button onclick="fetchPokemonData(1)">Fetch Data</button>
+  </div>
+  <div>
+    <select id="pokemon-select2">
+      <option value="">Select Pokémon</option>
+    </select>
+    <button onclick="fetchPokemonData(2)">Fetch Data</button>
+  </div>
+  <div id="pokemon-info1"></div>
+  <div id="pokemon-info2"></div>
 </body>
 
 <footer>
-  <h3>Created by:</h3>
-  <p>Chase Parker
-    <br>
-    Karizma Flores
-    <br>
-    Fernando Gonzalez
-  </p>
+ 
 </footer>
 </html>
