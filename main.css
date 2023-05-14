@@ -1,9 +1,68 @@
 @font-face {
   font-family: 'Pokemon';
-  src: ('./fonts/Pokemon Solid.tff') format('Pokemon');
-  font-weight: normal;
-  font-style: normal;
+  src: url('fonts/pokemon.ttf') format('truetype');
+  /* You may need to adjust the font file name and format based on your file's actual name and format */
+}
+html {
+  /* background-color: rgba(0, 140, 255, 0.59); */
+  background-image: url(https://th.bing.com/th/id/R.23fd3a70ac66c9a15fa292a5ac47be09?rik=AcKvjUs9dJy9BQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fOM9f67f.jpg&ehk=1xjAppiIlA%2bvXELlpGJlEhIccHmSyMJLABjyjuduEvs%3d&risl=&pid=ImgRaw&r=0);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+header {
+  display: flex;
+}
+.title {
+  letter-spacing: 4px;
 }
 h1 {
+  font-size: 5vh;
+  border: 5px double red;
+  background-color: rgba(0, 0, 255, 0.519);
+  color: yellow;
+  /* padding: 5%; */
+  /* margin: 5%; */
+}
+h2 {
+  color: yellow;
+}
+.stadium {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 99%;
+  background-image: url(https://i.redd.it/v4vq7z2kl3031.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+body {
   font-family: 'Pokemon', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./pokeball/Pokeball\ -\ 960x960.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+footer {
+  width: 100%;
+  color: blue;
+  /* background-color: rgba(255, 255, 255, 0.695); */
+  width: max-content;
+  letter-spacing: 50%;
+}
+.pokeball_container {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span {
+  font-size: 200%;
+  /* color: yellow; */
 }
