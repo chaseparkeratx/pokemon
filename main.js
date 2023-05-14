@@ -4,8 +4,8 @@ async function fetchPokemonNames() {
   const pokemonNames = data.results.map(pokemon => pokemon.name);
 
   // Populate the dropdown options
-  const select1 = document.getElementById('pokémon1');
-  const select2 = document.getElementById('pokémon2');
+  const select1 = document.getElementById('player1');
+  const select2 = document.getElementById('player2');
   for (let name of pokemonNames) {
     const option1 = document.createElement('option');
     const option2 = document.createElement('option');
