@@ -1,12 +1,10 @@
 @font-face {
   font-family: 'Pokemon';
   src: url('fonts/pokemon.ttf') format('truetype');
-  /* You may need to adjust the font file name and format based on your file's actual name and format */
 }
 html {
-  /* background-color: rgba(0, 140, 255, 0.59); */
   background-image: url(https://th.bing.com/th/id/R.23fd3a70ac66c9a15fa292a5ac47be09?rik=AcKvjUs9dJy9BQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fOM9f67f.jpg&ehk=1xjAppiIlA%2bvXELlpGJlEhIccHmSyMJLABjyjuduEvs%3d&risl=&pid=ImgRaw&r=0);
-  background-size: 150%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
   margin: 0%;
@@ -31,14 +29,13 @@ button {
 }
 h1 {
   font-size: 10vh;
-  border: 5px double red;
+  border: 50px double red;
+  border-width: 50px 150px;
+  border-radius: 50%;
   background-color: rgba(0, 0, 255, 0.787);
   color: yellow;
   /* padding: 5%; */
   /* margin: 5%; */
-}
-h2 {
-  color: yellow;
 }
 .stadium {
   display: flex;
@@ -101,9 +98,9 @@ html,body{
   background-position: 50%;
 }
 footer {
+  font-size: 10px;
   width: 100%;
-  color: rgba(155, 155, 14, 0.837);
-  /* background-color: rgba(255, 255, 255, 0.695); */
+  color: rgba(162, 162, 17, 0.85);
   width: max-content;
   letter-spacing: 50%;
   padding-bottom: 5%;
